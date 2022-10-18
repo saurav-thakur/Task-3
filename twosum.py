@@ -9,7 +9,7 @@ def two_sum(nums,target):
 
         d[nums[i]] = diff
 
-    return False
+    return "Not Found"
 
 nums = [2,7,11,15]
 target = 9
